@@ -122,23 +122,23 @@ To get a GitHub API key:
 After running the program, you'll have:
 
 <working dir>/
-├── main.py
-├── requirements.txt
-├── .env
-├── .env.example
-├── README.md
-└── output/
-├── advisories.json # Original data (all pages)
-├── advisories.json.zip # Zipped original data
-├── advisory_low.json # Low severity advisories
-├── advisory_low.json.zip # Zipped low severity advisories
-├── advisory_medium.json # Medium severity advisories
-├── advisory_medium.json.zip # Zipped medium severity advisories
-├── advisory_high.json # High severity advisories
-├── advisory_high.json.zip # Zipped high severity advisories
-├── advisory_critical.json # Critical severity advisories
-├── advisory_critical.json.zip # Zipped critical severity advisories
-├── advisories.csv # Structured CSV table with KEV
-└── known_exploited_vulnerabilities.csv # CISA KEV data
+ ├── main.py
+ ├── requirements.txt
+ ├── .env
+ ├── .env.example
+ ├── README.md
+ └── output/
+ ├── advisories.json # Original data (all pages)
+ ├── advisories.json.zip # Zipped original data
+ ├── advisory_low.json # Low severity advisories
+ ├── advisory_low.json.zip # Zipped low severity advisories
+ ├── advisory_medium.json # Medium severity advisories
+ ├── advisory_medium.json.zip # Zipped medium severity advisories
+ ├── advisory_high.json # High severity advisories
+ ├── advisory_high.json.zip # Zipped high severity advisories
+ ├── advisory_critical.json # Critical severity advisories
+ ├── advisory_critical.json.zip # Zipped critical severity advisories
+ ├── advisories.csv # Structured CSV table with KEV
+ └── known_exploited_vulnerabilities.csv # CISA KEV data
 
 **Total: 12 files in output directory (5 JSON + 5 ZIP + 2 CSV)**
