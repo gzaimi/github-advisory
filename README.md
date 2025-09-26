@@ -121,6 +121,7 @@ To get a GitHub API key:
 
 After running the program, you'll have:
 
+```
 <working dir>/
 ├── main.py
 ├── requirements.txt
@@ -140,5 +141,6 @@ After running the program, you'll have:
 ├── advisory_critical.json.zip # Zipped critical severity advisories
 ├── advisories.csv # Structured CSV table with KEV
 └── known_exploited_vulnerabilities.csv # CISA KEV data
+```
 
 **Total: 12 files in output directory (5 JSON + 5 ZIP + 2 CSV)**
